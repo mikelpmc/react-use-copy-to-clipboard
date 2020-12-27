@@ -1,4 +1,4 @@
-# ⚛️ React copy to clipboard
+## ⚛️ React copy to clipboard
 
 React custom hook to copy the given text to the clipboard.
 
@@ -25,7 +25,6 @@ function App() {
 
 You can reset the ```isCopied``` flag passing an optional ```successDuration``` prop with the desired time in milliseconds.
 
-### Example:
 ```jsx
 const {isCopied, onCopy} = useCopyToClipboard({text: "Text to copy", successDuration: 2000});
 ```
