@@ -2,7 +2,9 @@
 
 React custom hook to copy the given text to the clipboard.
 
-It uses the [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API) if its supported and the [Document.execCommand('copy')](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard) as a fallback.
+It uses the [Document.execCommand('copy')](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard).
+
+Compatible with Edge and IE11 as well all modern browsers.
 
 [Codesandbox demo](https://codesandbox.io/s/react-use-copy-to-clipboard-yw3hd)
 
