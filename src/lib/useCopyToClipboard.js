@@ -4,13 +4,9 @@ import copyToClipboard from "./copyToClipboard";
 const useCopyToClipboard = ({ text, successDuration }) => {
     const [isCopied, setIsCopied] = useState(false);
 
-    const handleCopyToClipboard = async () => {
-        try {
-            await copyToClipboard(text);
-            setIsCopied(true);
-        } catch (error) {
-            setIsCopied(false);
-        }
+    const handleCopyToClipboard = () => {
+        const result = copyToClipboard(text);
+        setIsCopied(result);
     };
 
     useEffect(() => {
