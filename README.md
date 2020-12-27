@@ -29,4 +29,4 @@ You can reset the ```isCopied``` flag passing an optional ```successDuration``` 
 const {isCopied, onCopy} = useCopyToClipboard({text: "Text to copy", successDuration: 2000});
 ```
 
-#### Author: Mikel Parra <mikelpmc@gmail.com> | <http://github.com/mikelpmc>
+##### Author: Mikel Parra <mikelpmc@gmail.com> | <http://github.com/mikelpmc>
