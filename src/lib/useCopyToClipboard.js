@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import copyToClipboard from "./copyToClipboard";
 
-const useCopyToClipboard = ({ text, successDuration = 2000 }) => {
+const useCopyToClipboard = ({ text, successDuration }) => {
     const [isCopied, setIsCopied] = useState(false);
 
     const handleCopyToClipboard = async () => {
@@ -14,7 +14,7 @@ const useCopyToClipboard = ({ text, successDuration = 2000 }) => {
     };
 
     useEffect(() => {
-        if (isCopied) {
+        if (isCopied && successDuration) {
             const timer = setTimeout(() => {
                 setIsCopied(false);
             }, successDuration);
