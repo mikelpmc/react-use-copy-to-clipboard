@@ -4,7 +4,7 @@ React custom hook to copy the given text to the clipboard.
 
 Compatible with Edge and IE11 as well all modern browsers.
 
-[Codesandbox demo](https://codesandbox.io/s/react-use-copy-to-clipboard-yw3hd)
+[Codesandbox demo](https://codesandbox.io/s/react-use-copy-to-clipboard-dsoyn)
 
 ## How to use
 
