@@ -1,0 +1,65 @@
+{
+    "name": "react-use-copy-to-clipboard",
+    "version": "1.0.0",
+    "private": false,
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "author": {
+        "name": "Mikel Parra",
+        "email": "mikelpmc@gmail.com"
+    },
+    "files": [
+        "dist/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mikelpmc/react-intersection-observer.git"
+    },
+    "keywords": [
+        "react",
+        "hook",
+        "custom-hook",
+        "clipboard",
+        "copy-to-clipboard"
+    ],
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "rollup -c"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "@babel/preset-react": "^7.9.4",
+        "@rollup/plugin-commonjs": "^11.0.2",
+        "@rollup/plugin-node-resolve": "^7.1.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "^4.0.1",
+        "rollup": "^2.3.4",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-peer-deps-external": "^2.2.2",
+        "rollup-plugin-visualizer": "^4.0.4"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0",
+        "react-dom": ">=16.8.0"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "ie 11",
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
